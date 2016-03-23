@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+TP1ej7 - 2
 -->
 <html>
     <head>
@@ -11,18 +9,28 @@ and open the template in the editor.
         <link href='estilo.css' rel='stylesheet' type="text/css">
     </head>
     <body>
-        <div id='content'>
-            <ul id='tabs'>
-                <li id='tab-1' class='selected'  >Tab 1</li>
-                <li id='tab-2' class='noselected'>Tab 2</li>
-                <li id='tab-3' class='noselected'>Tab 3</li>
+        <div id='tab-container' class='tab-container'>
+            <ul id='etabs'>
+                <li id='tab-1' class='tab'><a href='#tabsl-html'>Tab 1</a></li>
+                <li id='tab-2' class='tab'><a href='#tabsl-js'>Tab 2</a></li>
+                <li id='tab-3' class='tab'><a href='#tabsl-css'>Tab 3</a></li>
             </ul>
-            <div id='tab-content'>
-
+            <div id='tabsl-html'>
+                html
+            </div>
+            <div id='tabsl-js'>
+                js
+            </div>
+            <div id='tabsl-css'>
+                css
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="jquery-2.2.1.min.js"></script>
-        <script src="scrtabmanager.js"></script>
+        <script src='jquery.easytabs.js'></script>
+        <script src='jquery.ba-hashchange.js'></script>
+        <script>
+            $('#tab-container').easytabs();
+        </script>
     </body>
 </html>
