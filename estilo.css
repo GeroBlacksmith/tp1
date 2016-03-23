@@ -1,0 +1,25 @@
+/*TP1ej2*/
+body, ul,#tab-content{
+    padding: 0px;
+    margin: 0px;
+}
+#content, #tab-content{
+    width: 350px;
+}
+#tab-content{
+    height: 300px;
+    border:1px solid black;
+}
+li{
+    display: inline;
+    border:1px solid black;
+}
+li:hover{
+    cursor:pointer;
+}
+li.selected{
+    border-bottom-color: white;
+}
+li.noselected{
+    background-color: lightgrey;
+}
