@@ -27,8 +27,8 @@ TP1ej7 - 2
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="jquery-2.2.1.min.js"></script>
-        <script src='jquery.easytabs.js'></script>
-        <script src='jquery.ba-hashchange.js'></script>
+        <script src='https://github.com/JangoSteve/jQuery-EasyTabs/blob/master/lib/jquery.easytabs.js'></script>
+        <script src='https://raw.githubusercontent.com/cowboy/jquery-hashchange/v1.3/jquery.ba-hashchange.js'></script>
         <script>
             $('#tab-container').easytabs();
         </script>
